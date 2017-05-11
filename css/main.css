@@ -1,0 +1,57 @@
+body{
+  background-image: url("../img/landscape.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.cats{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+@media (min-width: 0px) and
+(max-width: 320px) {
+  body{
+    background:url("../img/midnight.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: stretch;
+  }
+}
+@media (min-width: 321px) and
+(max-width: 480px){
+  body{
+    background:url("../img/max.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+}
+@media (min-width: 481px) and
+(max-width: 768px){
+  body{
+    background:url("../img/dawn.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-content: stretch;
+  }
+}
+@media (min-width: 769px) and
+(max-width: 1200px) {
+  body{
+    background:url("../img/landscape.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-content: stretch;
+  }
+  #idcat1{
+    display: block;
+  }
+}
