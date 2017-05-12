@@ -1,14 +1,8 @@
 body{
+  display: flex;
   background-image: url("../img/landscape.jpg");
   background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-}
-.cats{
-  display: flex;
-  align-items: center;
-  align-content: center;
-  flex-direction: column;
+  background-size: cover;
 }
 @media (min-width: 0px) and
 (max-width: 320px) {
@@ -19,7 +13,7 @@ body{
     display: flex;
     justify-content: center;
     align-content: stretch;
-  }
+  }  
 }
 @media (min-width: 321px) and
 (max-width: 480px){
@@ -50,8 +44,5 @@ body{
     display: flex;
     justify-content: center;
     align-content: stretch;
-  }
-  #idcat1{
-    display: block;
   }
 }
